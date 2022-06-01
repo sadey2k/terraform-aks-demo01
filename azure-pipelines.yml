@@ -6,8 +6,8 @@
 trigger: none
 #- master
 
-pool:
-  vmImage: 'TestAgentPool'
+pool: 'TestAgentPool'
+  #vmImage: 
 
 steps:
 - task: TerraformCLI@0
