@@ -21,3 +21,9 @@ steps:
   inputs:
     command: 'plan'
     allowTelemetryCollection: false
+
+- task: TerraformCLI@0
+  displayName: Terraform Apply
+  inputs:
+    command: 'apply'
+    allowTelemetryCollection: false
